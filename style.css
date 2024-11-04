@@ -1,0 +1,57 @@
+:root{--fundo-exi:#e9e9e9}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+h1{
+    display: inline-block;
+}
+.paiexibi{
+    display: flex;
+    width: 65%;
+    height: 50%;
+}
+.exibiten{
+    background-color: var(--fundo-exi);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 5%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#joum{
+    margin-right: 20%;
+    margin-left: 50%;
+}
+#vanum{
+    margin-right: 20%;
+    margin-left: 50%;
+}
+#allum{
+    margin-right: 20%;
+    margin-left: 50%;
+}
