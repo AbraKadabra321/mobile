@@ -6,15 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css" integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header class="cabeca">
         <input type="search" id="pesquisa">
+        <label for="barras"><i class="fa-solid fa-bars fa-xl"></i></label>
         <input type="checkbox" name="barras" id="barras">
     </header>
     <main>
         <section>
-            <h1>JORDANS</h1>
+            <h1 class="titulo">JORDANS</h1>
            <div class="paiexibi">
                 <div class="exibiten" id="joum"><img src="image (6).png" alt=""></div>
                 <div class="exibiten" id="jodo"><img src="image (7).png" alt=""></div>
@@ -22,7 +25,7 @@
             
         </section>
         <section>
-            <h1>VANS</h1>
+            <h1 class="titulo">VANS</h1>
             <div class="paiexibi">
                 <div class="exibiten" id="vanum"><img src="image (4).png" alt=""></div>
                 <div class="exibiten" id="vando"><img src="image (5).png" alt=""></div>
@@ -30,7 +33,7 @@
             
         </section>
         <section>
-            <h1>ALL STARS</h1>
+            <h1 class="titulo">ALL STARS</h1>
             <div class="paiexibi">
                 <div class="exibiten" id="allum"><img src="image (2).png" alt=""></div>
                 <div class="exibiten" id="alldo"><img src="image (3).png" alt=""></div>
@@ -38,6 +41,10 @@
             
         </section>
     </main>
-    <footer></footer>
+    <footer class="final">
+        <li><i class="fa-solid fa-user fa-xl"></i></li>
+        <li><i class="fa-solid fa-cart-shopping fa-xl"></i></li>
+        <li><i class="fa-solid fa-heart fa-xl" style="color: #e14141;"></i></li>
+    </footer>
 </body>
 </html>
