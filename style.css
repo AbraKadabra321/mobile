@@ -4,6 +4,23 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+}
+.cabeca{
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    padding: 3%;
+}
+#pesquisa{
+    width: 70vw;
+    height: 3vh;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#barras{
+    display: none;
+
 }
 main{
     width: 100%;
@@ -20,13 +37,18 @@ section{
     width: 100%;
     height: 30%;
 }
-h1{
-    display: inline-block;
+.titulo{
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
 }
 .paiexibi{
     display: flex;
-    width: 65%;
-    height: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 .exibiten{
     background-color: var(--fundo-exi);
@@ -34,24 +56,22 @@ h1{
     justify-content: center;
     align-items: center;
     flex: auto;
-    width: 100%;
-    height: 100%;
+    width: 35%;
+    height: 50%;
     border-radius: 12px;
-    padding: 5%;
+    padding: 5px;
+    margin: 0 5%;
 }
 img{
     width: 100%;
     height: 100%;
 }
-#joum{
-    margin-right: 20%;
-    margin-left: 50%;
+.final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
 }
-#vanum{
-    margin-right: 20%;
-    margin-left: 50%;
-}
-#allum{
-    margin-right: 20%;
-    margin-left: 50%;
+li{
+    list-style-type: none;
 }
